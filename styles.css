@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f9; 
+    background-color: #ff3333; 
     font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 
 header {
-    background-color: #4CAF50; 
+    background-color: #000000; 
     color: white;
     text-align: center;
     padding: 20px 0; 
@@ -27,7 +27,7 @@ section {
 
 
 .metric {
-    background-color: white; 
+    background-color: blue; 
     border: 1px solid #ddd; 
     margin: 15px auto; 
     padding: 15px; 
@@ -38,7 +38,7 @@ section {
 
 
 button {
-    background-color: #4CAF50;
+    background-color: #09440b;
     color: white; 
     padding: 10px 20px; 
     font-size: 16px; 
@@ -50,12 +50,12 @@ button {
 
 
 button:hover {
-    background-color: #45a049; 
+    background-color: #1b9721; 
 }
 
 
 footer {
-    background-color: #333; 
+    background-color: #6b6666; 
     color: white;
     text-align: center; 
     padding: 10px 0; 
