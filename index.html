@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Key Metrics</h2>
+            <div>
+                <p>Total Users: <span id="totalUsers">1000</span></p>
+            </div>
+            <div>
+                <p>Total Sales: <span id="totalSales">500</span></p>
+            </div>
+            <button id="alterButton">Show Alert</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved</p>
+    </footer>
+
+    <script>
+        // Script to show alert when button is clicked
+        document.getElementById('alertButton').addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+    </script>
+</body>
+</html>
